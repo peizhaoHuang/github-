@@ -1,0 +1,7 @@
+[user]
+	name = Huang
+	email = 442295287@qq.com
+[core]
+	excludesfile = C:/Users/HPZ/git.ignore
+[http]
+	sslVerify = false
