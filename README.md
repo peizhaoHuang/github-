@@ -9,7 +9,7 @@
 打开vscode -> 设置 -> 扩展 -> Git -> Repository Scan lgnored Folders(在这里写上需要忽略提交的文件夹以及文件后缀名如：**/node_modules，**/package-json) -> 确定。
 # 关于代码管理器提交慢的问题
 打开vscode -> 设置 -> 扩展 -> Git -> Use Editor As Commit Input(取消勾选即可)。
-# 提交时出现提交失败
+# 提交时出现提交失败（SSL certificate problem: unable to get local issuer certificate）
 原因：由于没有配置信任的服务器HTTPS验证。默认，cURL被设为不信任任何CAs，就是说，它不信任任何服务器验证。
 可以通过在项目文件夹下打开git Bash命令面板，输入：git config --global http.sslVerify false 回车
 以上就是我在使用vscode中进行github提交所遇到的问题，希望对您有所帮助！
